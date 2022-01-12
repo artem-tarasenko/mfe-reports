@@ -4,7 +4,7 @@ export default function Reports() {
 
     return (
         <div>
-            <h3>Reports page</h3>
+            <h3>Reports page updated (v2)</h3>
             <hr />
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
