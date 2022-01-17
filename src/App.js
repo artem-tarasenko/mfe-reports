@@ -1,9 +1,10 @@
-import React from "react"
-import Reports from './components/Reports'
+import React from "react";
+import Reports from './components/Reports';
+import './styles.scss';
 
 function App() {
     return (
-        <div  style={{maxWidth: '450px', border: '1px solid #dedeed', margin: '2rem', padding: '1rem', backgroundColor: "#fafaaf"}}> 
+        <div className="reports-app"> 
             <Reports />
         </div>
     )

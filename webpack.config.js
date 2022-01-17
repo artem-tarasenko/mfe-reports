@@ -48,17 +48,13 @@ module.exports = {
       name: "reportsMfe",
       filename: "remoteEntry.js",
       remotes: {
-        // libs: "libs@http://localhost:4100/remoteEntry.js",
+        // app: "app@http://localhost:port/remoteEntry.js",
       },
       exposes: {
         // "./react": "react",
-        // "./react-dom": "react-dom",
-        // "./react-router-dom": "react-router-dom",
         "./Reports": "./src/components/Reports.jsx",
       },
       shared: {
-        // react: {singleton: true},
-        // 'react-dom': {singleton: true},
       }
     }),
   
